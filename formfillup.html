@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>Form</title>
+	<style>
+		@font-face 
+		{
+			font-family: myFirstFont;
+			src: url(KalamRegular.woff);
+		}
+		* 
+		{
+			font-family: myFirstFont;
+		}
+		body
+		{
+			background-color:#00FFCD;
+		}
+		input,select
+		{
+			width:100%;
+			padding:12px 20px;
+			border-redius:6px;
+			display:inline-block;
+			border:1px solid black;
+			box-sizing:border-box;
+			margin:8px 0;
+		}
+		div
+		{
+			background-color:#00FFCD;
+			border:1px solid black;
+			padding:20px;
+			border-redius:5px;
+		}
+		input[type=submit]
+		{
+			background-color:black;
+			color:white;
+			cursor:pointer;
+			padding:16px 22px;
+			border:none;
+			margin:8px 0;
+		}
+		input[type=submit]:hover
+		{
+			background-color:#1BFF00;
+			color:black;
+		}
+		input[type=reset]
+		{
+			background-color:red;
+			color:white;
+			cursor:pointer;
+			padding:16px 22px;
+			border:none;
+			margin:8px 0;
+		}
+		input[type=reset]:hover
+		{
+			background-color:#1BFF00;
+			color:black;
+		}
+		input[type=text]
+		{
+			background-color:;
+			color:black;
+		}
+		input[type=text]:focus
+		{
+			background-color:#FFB3B3;
+		}
+		input[type=password]
+		{
+			color:black;
+		}
+		input[type=password]:focus
+		{
+			background-color:#FFB3B3;
+		}
+		input[type=email]
+		{
+			color:black;
+		}
+		input[type=email]:focus
+		{
+			background-color:#FFB3B3;
+		}
+		input[type=radio]
+		{
+			color:#75C7FF;
+			width:50px;
+		}
+	</style>
+	</head>
+	<body>
+		<div>
+		<form action="thanks.html" method="post">
+			<label>First Name</label><br>
+				<input type="text" required /><br>
+			<label>Last Name</label><br>
+				<input type="text" required /><br>
+			<label>Username</label><br>
+				<input type="text" required /><br>
+			<label>Password</label><br>
+				<input type="Password" required /><br>
+			<label>Confirm Password</label><br>
+				<input type="Password" required /><br>
+			<label>Email</label><br>
+				<input type="Email" required /><br>
+			<label>Date Of Birthday</label><br>
+				<input type="Date" required /><br>
+			<label>Select state</label><br>
+				<Select required >
+					<option>Maharashtra</option><option>Uttarpradesh</option><option>Gujarat</option>
+				</select><br>
+			<label>Select city</label><br>
+				<select required >
+					<option>Mumbai</option><option>Basti</option><option>Lucknow</option><option>Nashik</option><option>Kanpur</option><option>Rajkot</option>
+				</select><br>
+			<label>Attach File</label><br>
+				<input type="File" required /><br>
+			<label>Gender</label><br>
+				<br><br><input type="Radio" name="rG" value="male" required />Male<input type="Radio" name="rG" required />Female<input type="Radio" name="rG" required />Third Gender<br>
+			<Input type="Submit" value="Submit>>"/><br>
+			<input type="Reset" value="Reset"/><br>
+			</form>
+		</div>
+	</body>
+</html>
