@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			ul
+				{
+					list-style-type:none;
+					overflow:hidden;
+					background-color:black;
+					margin:0;
+					padding:0;
+					position:fixed;
+					top:0;
+					width:100%;
+				}
+			li
+				{
+					display:inline;
+					float:left;
+					border-right:1px solid white;
+				}
+			li a
+				{
+					display:block;
+					padding:16px 18px;
+					color:white;
+					font-family:verdana;
+					text-decoration:none;
+				}
+			li a:hover
+				{
+					background-color:gray;
+				}
+			.active
+				{
+					background-color:red;
+				}
+			ol
+				{
+					list-style-type:none;
+					margin:0;
+					top:51px;
+					padding:0;
+					width:200px;
+					border:1px solid black;
+					background-color:black;
+					height:100%; /* full height */
+					position:fixed; /* make it stick, even on scroll */
+					overflow:auto; /* enable scrolling if the sidenav has too much content */
+				}
+			li a.sk
+				{
+					font-family:vardana;
+					display:block;
+					color:white;
+					font-size:0.2in;
+					padding:14px 63px;
+					text-decoration:none;
+				}
+			li
+				{
+					text-align:center;
+					border-bottom:1px solid white;
+				}
+			/* change the link color on hover */
+			li a:hover
+				{
+					background-color:green;
+					color: white;
+				}
+			li:last-child
+				{
+					border-bottom:none
+				}
+			div.jk
+			{
+				position:absolute;
+				color:white;
+				display:black;
+				background-color:;
+				border:none;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#Home" class="active">Home</a></li>
+			<li><a href="#News">News</a></li>
+			<li><a href="#Contect">Contect</a></li>
+			<li style="float:right"><a href="#About" class="active">About</a></li>
+		</ul>
+		<ol>
+			<li><a href="#Sajid" class="sk">SajidKhan</a>
+				<div class="jk">
+					<h1>sdfhjkdfgvjkzsdghfuaerfg</H1>
+				</div>
+			</li>
+			<li><a href="#Rajendra"  class="sk">RajendraN</a></li>
+			<li><a href="#SKhan"  class="sk">Sahikhan</a></li>
+			<li><a href="#JKhan"  class="sk">JavedKhan</a></li>
+		</ol>
+	</body>
+</html>
